@@ -86,7 +86,7 @@ import java.util.Locale
 
                 override fun onTick(millisUntilFinished: Long) {
                     timeLeftInMillis = millisUntilFinished
-                    imgPlay!!.setImageResource(R.drawable.ic_stop)
+                    imgPlay!!.setImageResource(android.R.drawable.ic_media_pause)
                     updateCountDownText()
                     progressbar!!.progress = (millisUntilFinished / 1000).toInt()
                 }
@@ -103,7 +103,7 @@ import java.util.Locale
         private fun pauseTimer(){
             countDownTimer.cancel()
             timerStatus = TimerStatus.STOPPED
-            imgPlay!!.setImageResource(R.drawable.ic_play)
+            imgPlay!!.setImageResource(android.R.drawable.ic_media_play)
         }
 
         private fun resetTimer(){
