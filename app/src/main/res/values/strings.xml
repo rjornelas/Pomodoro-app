@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">pomodoro</string>
+    <string name="timer_setting_title_dialog">Timer Setting</string>
+    <string name="timer_setting_start_action">Start</string>
+    <string name="note_break">It\'s time to take a break. Don\'t forget hydrate!\n</string>
+    <string name="leave_break">LEAVE BREAK</string>
+    <string name="title_attention">Attention</string>
+    <string name="action_yes">YES</string>
+    <string name="action_no">NO</string>
+    <string name="message_finish_break">Are you sure you want to leave your break?</string>
+    <string name="title_finish_pomodoro">Congratulations</string>
+    <string name="message_finish_pomodoro">You finish your Pomorodo!</string>
+    <string name="action_ok">OK</string>
+    <string name="message_finish_timer">Are you sure you want to leave your pomodoro?</string>
 </resources>

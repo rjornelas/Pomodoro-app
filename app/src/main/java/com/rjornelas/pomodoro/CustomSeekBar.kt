@@ -39,8 +39,8 @@ class CustomSeekbar: DialogFragment() {
 
         with(alert){
             setView(view)
-            setTitle("Timer Setting")
-            setPositiveButton("Start"){ _, _ -> onPositiveClick(
+            setTitle(getString(R.string.timer_setting_title_dialog))
+            setPositiveButton(getString(R.string.timer_setting_start_action)){ _, _ -> onPositiveClick(
                 tvTime.text.toString().toInt(),
                 tvBreaks.text.toString().toInt()
             )}
